@@ -1,0 +1,9 @@
+:root {
+  --primary-bg-color: #060417;
+  --primary-text-color: #ffff;
+}
+
+[theme="light"] {
+  --primary-bg-color: #ffff;
+  --primary-text-color: #060417;
+}

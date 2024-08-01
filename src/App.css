@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+.app {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  z-index: 0;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.container {
+  max-width: 1300px !important;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
